@@ -2,6 +2,7 @@ describe('countBy', function() {
   it("it will count by 1 to maxNumber", function () {
     expect(countBy(1, 10)).to.equal("1,2,3,4,5,6,7,8,9,10");
   });
+  // whats a county referenced here?
   it("will county by 2 to maxNumber", function () {
     expect(countBy(2, 10)).to.equal("2,4,6,8,10");
   });
@@ -10,7 +11,11 @@ describe('countBy', function() {
   });
 });
 
-
+// What about empty strings?
+// negative numbers?
+// one negative and one positive?
+// Why can't I count by .1?
+// You could do more specs 
 
 
 
